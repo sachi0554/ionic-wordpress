@@ -17,4 +17,8 @@ export class WoooService {
 		const url = this.apiHost+`products?consumer_key=${this.ConsumerKey}&consumer_secret=${this.ConsumerSecret}`;
 		return this._http.get<any>(url);
 	}
+	public getCategory():Observable<any> {
+		const url = this.apiHost+`products/categories?consumer_key=${this.ConsumerKey}&consumer_secret=${this.ConsumerSecret}`;
+		return this._http.get<any>(url);
+	}
 }
