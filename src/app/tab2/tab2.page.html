@@ -5,6 +5,171 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+  <ion-slides pager class="featureSlider">
+    <ion-slide style="background-image: url('assets/imgs/TopDownLaptop.jpeg'); background-position: center center; background-size: cover;">
+      <button ion-button style="right: 20px; bottom: 15%; position: absolute;">Only the Best</button>
+    </ion-slide>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+    <ion-slide style="background-image: url('assets/imgs/AppleWorkplace.jpeg'); background-position: center center; background-size: cover;">
+      <button ion-button style="right: 20px; bottom: 15%; position: absolute;">Browse Category</button>
+    </ion-slide>
+
+    <ion-slide style="background-image: url('assets/imgs/OfficeThings.jpeg'); background-position: center center; background-size: cover;">
+      <button ion-button style="right: 20px; bottom: 15%; position: absolute;">Shop Now</button>
+    </ion-slide>
+  </ion-slides>
+
+  <div padding>
+
+    <!-- Featured Categories Style 1 -->
+    <h2>Featured Categories 1</h2>
+
+    <ion-grid no-padding>
+      <ion-row>
+        <ion-col col-6>
+          <ion-card>
+            <ion-chip color="primary" style="position: absolute; right: 20px; top: 20px;">
+              <ion-label>20% Off</ion-label>
+            </ion-chip>
+            <img src="assets/imgs/products/laptop.jpeg" no-margin/>
+            <button style="margin: 0;" ion-button full color="primary">Laptops</button>
+          </ion-card>
+        </ion-col>
+
+        <ion-col col-6>
+          <ion-card>
+            <img src="assets/imgs/products/laptop.jpeg" />
+            <button style="margin: 0;" ion-button full color="primary">Desktops</button>
+          </ion-card>
+        </ion-col>
+
+        <ion-col col-6>
+          <ion-card>
+            <img src="assets/imgs/products/laptop.jpeg" />
+            <button style="margin: 0;" ion-button full color="primary">Tablets</button>
+          </ion-card>
+        </ion-col>
+
+        <ion-col col-6>
+          <ion-card>
+            <img src="assets/imgs/products/laptop.jpeg" />
+            <button style="margin: 0;" ion-button full color="primary">Accessories</button>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <!-- End Featured Categories Style 1 -->
+
+    <!-- Featured Categories Style 2 -->
+    <h2>Featured Categories 2</h2>
+
+    <ion-grid no-padding>
+      <ion-row>
+        <ion-col col-12>
+
+
+          <ion-card>
+            <ion-chip color="primary" style="position: absolute; right: 20px; top: 20px;">
+              <ion-label>Up To 50% Off!</ion-label>
+            </ion-chip>
+            <img src="assets/imgs/products/laptop.jpeg" />
+            <button style="margin: 0;" ion-button full color="primary">Laptops</button>
+          </ion-card>
+
+          <ion-card>
+            <img src="assets/imgs/products/laptop.jpeg" />
+            <button style="margin: 0;" ion-button full color="primary">Desktops</button>
+          </ion-card>
+
+          <ion-card>
+            <img src="assets/imgs/products/laptop.jpeg" />
+            <button style="margin: 0;" ion-button full color="primary">Tablets</button>
+          </ion-card>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <!-- End Featured Categories Style 2 -->
+
+    <!-- Featured Categories Style 3 -->
+    <h2>Featured Categories 3 (Scroll)</h2>
+
+    <ion-slides no-pager class="featureSlider">
+      <ion-slide>
+        <ion-grid no-padding>
+          <ion-row>
+            <ion-col col-6>
+              <ion-card>
+                <ion-chip color="primary" style="position: absolute; right: 20px; top: 20px;">
+                  <ion-label>20% Off</ion-label>
+                </ion-chip>
+                <img src="assets/imgs/products/laptop.jpeg" />
+                <button style="margin: 0;" ion-button full color="primary">Laptops</button>
+              </ion-card>
+            </ion-col>
+
+            <ion-col col-6>
+              <ion-card>
+                <img src="assets/imgs/products/laptop.jpeg" />
+                <button style="margin: 0;" ion-button full color="primary">Desktops</button>
+              </ion-card>
+            </ion-col>
+
+            <ion-col col-6>
+              <ion-card>
+                <img src="assets/imgs/products/laptop.jpeg" />
+                <button style="margin: 0;" ion-button full color="primary">Tablets</button>
+              </ion-card>
+            </ion-col>
+
+            <ion-col col-6>
+              <ion-card>
+                <img src="assets/imgs/products/laptop.jpeg" />
+                <button style="margin: 0;" ion-button full color="primary">Accessories</button>
+              </ion-card>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-grid no-padding>
+          <ion-row>
+            <ion-col col-6>
+              <ion-card>
+                <ion-chip color="primary" style="position: absolute; right: 20px; top: 20px;">
+                  <ion-label>20% Off</ion-label>
+                </ion-chip>
+                <img src="assets/imgs/products/laptop.jpeg" no-margin/>
+                <button style="margin: 0;" ion-button full color="primary">Laptops</button>
+              </ion-card>
+            </ion-col>
+
+            <ion-col col-6>
+              <ion-card>
+                <img src="assets/imgs/products/laptop.jpeg" />
+                <button style="margin: 0;" ion-button full color="primary">Desktops</button>
+              </ion-card>
+            </ion-col>
+
+            <ion-col col-6>
+              <ion-card>
+                <img src="assets/imgs/products/laptop.jpeg" />
+                <button style="margin: 0;" ion-button full color="primary">Tablets</button>
+              </ion-card>
+            </ion-col>
+
+            <ion-col col-6>
+              <ion-card>
+                <img src="assets/imgs/products/laptop.jpeg" />
+                <button style="margin: 0;" ion-button full color="primary">Accessories</button>
+              </ion-card>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-slide>
+    </ion-slides>
+    <!-- End Featured Categories Style 3 -->
+
+  </div>
 </ion-content>
